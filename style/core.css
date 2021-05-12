@@ -1,0 +1,42 @@
+html, body {
+  height: 100%
+}
+
+body > * {
+  border:1px solid #000;
+}
+
+body > header, body > footer {
+  background:#444;
+  color: #eee;
+  height: 70px;
+  line-height:70px;
+  text-align:center;
+}
+
+main {
+  background: navy
+}
+
+main > .content {
+  background: navy;
+}
+
+main > aside {
+  background: gold;
+  height: 100%
+}
+
+main > nav {
+  background: gold;
+  height: 100%
+}
+
+
+
+.centerWords {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
